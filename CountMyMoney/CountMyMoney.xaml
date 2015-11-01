@@ -1,0 +1,12 @@
+﻿<Window 
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+       Title="CountMyMoney" Height="300" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="203*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="tabControlMain" Height="100" Margin="50,133,0,37" Width="100" HorizontalAlignment="Left" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window> 
